@@ -6,6 +6,6 @@ console.log(dobrado);
 
 let nomes = ["Brenda", "Carlos", "Diana", "Felipe"];
 
-let mensagem = nomes.map((nome) => `Olá, ${nome.toUpperCase}}`);
+let mensagem = nomes.map((nome) => `Olá, ${nome.toUpperCase()}`);
 
 console.log(mensagem);
